@@ -19,12 +19,12 @@ class Circulo:
         ax.set_ylim(self.centro.y - self.radio - 10, self.centro.y + self.radio + 10)
         ax.set_aspect('equal')  
         plt.grid()
-
         plt.show()
 
     def __str__(self):
         return f"Circulo(Centro={self.centro}, Radio={self.radio})"
 
 p = Punto(0, 0)
-c = Circulo(p, 20)
+c = Circulo(p, 5)
+print(c)
 c.dibuja_circulo()

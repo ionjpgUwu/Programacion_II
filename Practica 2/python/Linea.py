@@ -21,8 +21,8 @@ class Linea:
 
     def __str__(self):
         return f"Linea(P1={self.p1}, P2={self.p2})"
-
-p1 = Punto(20, 3)
-p2 = Punto(10, 8)
+p1 = Punto(0, 0)
+p2 = Punto(5, 5)
 linea = Linea(p1, p2)
+print(linea)
 linea.dibuja_linea()
